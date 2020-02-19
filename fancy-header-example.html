@@ -1,0 +1,79 @@
+
+<style include="app-shared-styles">
+
+  #overlay {
+    --overlay-background-color: var(--app-body-color);
+  }
+
+  lazy-carousel {
+    height: 100%;
+  }
+
+  .card {
+    margin:           24px;
+    padding:          16px;
+    color:            var(--secondary-text-color, #757575);
+    border-radius:    3px;
+    background-color: var(--app-background-color, white);
+    box-shadow:       0 2px 2px 0 rgba(0, 0, 0, 0.14), 
+                      0 1px 5px 0 rgba(0, 0, 0, 0.12), 
+                      0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  }
+
+  .circle {
+    display:       inline-block;
+    width:         64px;
+    height:        64px;
+    text-align:    center;
+    color:         #555;
+    border-radius: 50%;
+    background:    #ddd;
+    font-size:     30px;
+    line-height:   64px;
+  }
+
+  h1 {
+    margin:    16px 0px;
+    color:     var(--dark-text-color, black);
+    font-size: 22px;
+  }
+
+</style>
+
+
+<app-header-overlay id="overlay"
+                    close-button
+                    header-size="3"
+                    prebuilt-animation="from-left"
+                    reveal-header
+                    title="Title Goes Here">
+
+  <paper-icon-button slot="top-toolbar-buttons-slot" 
+                     icon="app-icons:settings">
+  </paper-icon-button>
+
+  <!-- <paper-icon-button slot="bottom-toolbar-buttons-slot" 
+                     icon="app-icons:settings">
+  </paper-icon-button> -->
+
+  <lazy-carousel slot="header-background-slot" 
+                 aspect-ratio="fill"
+                 autoplay
+                 images="[[_images]]">
+  </lazy-carousel>
+
+  <paper-fab slot="fab-slot"></paper-fab>
+
+  <div slot="content" 
+       class="card">
+    <div class="circle shared-no-select">1</div>
+    <h1>Overlay Content</h1>
+    <p>
+      Ut labores minimum atomorum pro. Laudem tibique ut has.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Cu mei vide viris gloriatur, at populo eripuit sit.
+    </p>
+  </div>
+
+</app-header-overlay>
