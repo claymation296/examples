@@ -1,6 +1,6 @@
 {
   "name": "@longlost/examples",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "App element usage examples to use as easy start references.",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,9 @@
   "homepage": "https://github.com/longlost/examples#readme",
   "dependencies": {
     "@longlost/app-element": "^1.1.1",
-    "@longlost/app-overlays": "^1.0.2",
-    "@longlost/app-shared-styles": "^2.0.12",
-    "@longlost/lazy-carousel": "^2.1.7",
+    "@longlost/app-overlays": "^1.2.1",
+    "@longlost/app-shared-styles": "^2.0.13",
+    "@longlost/lazy-carousel": "^2.1.8",
     "@polymer/paper-fab": "^3.0.1",
     "@polymer/paper-icon-button": "^3.0.2"
   }
