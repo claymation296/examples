@@ -1,6 +1,6 @@
 {
   "name": "@longlost/examples",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "App element usage examples to use as easy start references.",
   "main": "index.js",
   "scripts": {
