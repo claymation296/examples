@@ -10,11 +10,8 @@
   *
   **/
 
-import {
-  AppElement, 
-  html
-}                 from '@longlost/app-element/app-element.js';
-import htmlString from './fancy-header-example.html';
+import {AppElement, html} from '@longlost/app-element/app-element.js';
+import htmlString         from './fancy-header-example.html';
 import '@longlost/app-shared-styles/app-shared-styles.js';
 import '@longlost/app-overlays/app-header-overlay.js';
 import '@longlost/lazy-carousel/lazy-carousel.js';
@@ -37,16 +34,16 @@ class FancyHeaderExample extends AppElement {
         type: Array,
         value: [
           {
-            alt: 'bg2',
-            src: 'https://app-layout-assets.appspot.com/assets/bg2.jpg'
+            alt: 'bb8 card',
+            src: 'https://images.unsplash.com/photo-1588699219474-fce022b9f633?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
           },
           {
-            alt: 'bg3',
-            src: 'https://app-layout-assets.appspot.com/assets/bg3.jpg'
+            alt: 'opera house',
+            src: 'https://images.unsplash.com/photo-1597730075497-f322c72e3eb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
           },
           {
-            alt: 'bg4',
-            src: 'https://app-layout-assets.appspot.com/assets/bg4.jpg'
+            alt: 'stary scene',
+            src: 'https://images.unsplash.com/photo-1597699639766-6d124965a52d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60'
           },
           {
             alt: 'donuts',
@@ -59,6 +56,10 @@ class FancyHeaderExample extends AppElement {
           {
             alt: 'house',
             src: 'https://raw-dot-custom-elements.appspot.com/PolymerElements/paper-card/v2.0.0/paper-card/demo/house.png'
+          },
+          {
+            alt: 'travel',
+            src: 'https://raw-dot-custom-elements.appspot.com/PolymerElements/paper-card/v2.0.0/paper-card/demo/travel.png'
           }
         ]
       }

@@ -10,29 +10,21 @@
     "@longlost/lambda" "^2.2.0"
     "@longlost/utils" "^1.3.5"
 
-"@longlost/app-carousel@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@longlost/app-carousel/-/app-carousel-3.0.0.tgz#52fad11f373c638fad649cb9c3e7d24b0868ccb2"
-  integrity sha512-wWAFhBAsB+N2WfTV1ug7wz/k1+pa7gnjTyTvY2k/58brhkmITzWO3QJR31MuvUQEXY4sFzi4u/qxXeR02RjkqA==
+"@longlost/app-carousel@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@longlost/app-carousel/-/app-carousel-3.0.1.tgz#f2c3b0723906505a5c3a04def984ffa5aaf8b0f1"
+  integrity sha512-4UGnSD8qTAi2DvWcX7G8dFNI3I0HJO8guXB46M0JFQt6U04Q1DIAMcpEnwCzirdOBB/Eu4plTYVKMupMUsjcZA==
   dependencies:
-    "@longlost/app-element" "^1.1.1"
+    "@longlost/app-element" "^2.0.0"
     "@longlost/app-icons" "^1.0.12"
-    "@longlost/app-shared-styles" "^2.0.13"
+    "@longlost/app-shared-styles" "^2.0.15"
     "@longlost/lambda" "^2.2.0"
-    "@longlost/utils" "^1.4.0"
+    "@longlost/utils" "^1.5.1"
     "@polymer/iron-icon" "^3.0.1"
     "@polymer/paper-icon-button" "^3.0.2"
     "@polymer/paper-ripple" "^3.0.2"
-    "@polymer/polymer" "^3.4.0"
+    "@polymer/polymer" "^3.4.1"
     scroll-behavior-polyfill "^2.0.13"
-
-"@longlost/app-element@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@longlost/app-element/-/app-element-1.1.1.tgz#0a6907316ead915abea6df82f1c24f19cca965ab"
-  integrity sha512-4BNTe0jl28c7pJ02hb0dSRqDWbcV+a8q7XailQGgzgOm3bxzI8m5QjAykRDyBbqtor6fs+VmaNyNK91hH0dLwQ==
-  dependencies:
-    "@longlost/utils" "^1.3.5"
-    "@polymer/polymer" "^3.3.1"
 
 "@longlost/app-element@^2.0.0":
   version "2.0.0"
@@ -49,41 +41,34 @@
   dependencies:
     "@polymer/iron-iconset-svg" "^3.0.1"
 
-"@longlost/app-images@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@longlost/app-images/-/app-images-1.4.0.tgz#43415a56ebb6f43540a93b873936cd0e7dcd6f71"
-  integrity sha512-fJ8LmUYwCs/u96oyM4BzPSdZk3vuVG15Q08Twj1rYag55nDLTYItNLzqBHzdEmh+EV/WsTzNCcoiLPg1s5SInw==
+"@longlost/app-images@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@longlost/app-images/-/app-images-1.5.0.tgz#7404ad93546ed81ea3d4602913ec95f791bbf91f"
+  integrity sha512-+RmU9QXqnsjFhI7pAlOoRBEPkzpGSkh59cA1UhXJUm9bXODCbTyid8jYj7oEV/3Zpm7BPncx5IVs/MR92EXjew==
   dependencies:
     "@longlost/animation" "^2.0.0"
-    "@longlost/app-element" "^1.1.1"
-    "@longlost/utils" "^1.4.0"
+    "@longlost/app-element" "^2.0.0"
+    "@longlost/utils" "^1.4.1"
     "@polymer/iron-image" "^3.0.2"
 
-"@longlost/app-overlays@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@longlost/app-overlays/-/app-overlays-1.3.1.tgz#b4b72e750dd25d564eecd60a8eb5af25f6862662"
-  integrity sha512-Gdvek5hwKEiMnh5skEPOhqLMIq3fCHB3Y6Upqn85ZEUeGjBpt9qeB1RFy3XUQGgxKzbpd/GLiotXV86HbybIPw==
+"@longlost/app-overlays@^1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@longlost/app-overlays/-/app-overlays-1.3.4.tgz#54cd179a0c4a0ead2c3c83ba0364a47bf1f9223c"
+  integrity sha512-CrcpPhCorZy55UzxGxAwX8Sh5lh2VwbsWfV+jPsn2HrX8richYu6JI0ATJKhymy7LcJTyyDenbbVziHL7Sm+PQ==
   dependencies:
     "@longlost/animation" "^2.0.0"
-    "@longlost/app-element" "^1.1.1"
+    "@longlost/app-element" "^2.0.0"
     "@longlost/app-icons" "^1.0.12"
-    "@longlost/app-shared-styles" "^2.0.13"
-    "@longlost/utils" "^1.4.0"
+    "@longlost/app-shared-styles" "^2.0.15"
+    "@longlost/utils" "^1.5.1"
     "@polymer/app-layout" "^3.1.0"
     "@polymer/paper-card" "^3.0.1"
     "@polymer/paper-icon-button" "^3.0.2"
 
-"@longlost/app-shared-styles@^2.0.13":
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/@longlost/app-shared-styles/-/app-shared-styles-2.0.13.tgz#7a800d088a19bcda6288ff20d19cc9772ff36223"
-  integrity sha512-4PqO8cv8xbBMvUcaSWxnLVUQbExwVT8wR7d0KSzCyqo1WRGWaCE+4/Dyxrz12czBGPTwSuSbaA4iq/3KSmJ/Mg==
-  dependencies:
-    "@polymer/polymer" "^3.3.1"
-
-"@longlost/app-shared-styles@^2.0.14":
-  version "2.0.14"
-  resolved "https://registry.yarnpkg.com/@longlost/app-shared-styles/-/app-shared-styles-2.0.14.tgz#9796163c9ec8de304864949101fc4362c6171117"
-  integrity sha512-Sw+Yf4tE0xH77aEar8iRy7DnsAWMhBbbz1ySGR7P5N/yikYvunjetImnpGHJ6c4LEESH6zGvLHbZ6GTGy3Aojg==
+"@longlost/app-shared-styles@^2.0.15":
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/@longlost/app-shared-styles/-/app-shared-styles-2.0.15.tgz#247cac4320896afd7c7020631ef0852e0e931871"
+  integrity sha512-sW3VHQ8JDCy7ac3qBLrPnF4hZhnSv+4rlF/XnRBzUBLcsFdyK3tl7VWqAXEvhC57C454n3OhFytPCcvakbkQ+A==
   dependencies:
     "@polymer/polymer" "^3.4.1"
 
@@ -92,14 +77,14 @@
   resolved "https://registry.yarnpkg.com/@longlost/lambda/-/lambda-2.2.0.tgz#f9ae362590222896d64272df580a281929081051"
   integrity sha512-hjwZPIcs1FPC1tHG6moCAX0bjtFHIRqVg/jBgsnLhGV0p3Dc0bGo1Z+lGYhEEKZnZFgxhxHY3+PBXw0brgPkPg==
 
-"@longlost/lazy-carousel@^2.1.10":
-  version "2.1.10"
-  resolved "https://registry.yarnpkg.com/@longlost/lazy-carousel/-/lazy-carousel-2.1.10.tgz#2e13b21cdd58f061e4c07420406235f50440be2f"
-  integrity sha512-NGRkGsTKsPRhHmuY277KF56EKAaNvwBWC3HjJ5Sxc400VQx1CjtGS2eYPaXF9j1+WxNI+cr96F3dzhaI/zyhjQ==
+"@longlost/lazy-carousel@^2.1.11":
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/@longlost/lazy-carousel/-/lazy-carousel-2.1.11.tgz#08be7046aa43e5ff2351d450c7981fda6985659c"
+  integrity sha512-DHhBIbYj3yXojUyClxGPxBnJz78DDGUraHLrFp7cHpmkzH2RiQ9Y4NgS556kxo/fX5s/L9p/PoSzb3JrC4QaCg==
   dependencies:
-    "@longlost/app-carousel" "^3.0.0"
+    "@longlost/app-carousel" "^3.0.1"
     "@longlost/app-element" "^2.0.0"
-    "@longlost/app-images" "^1.4.0"
+    "@longlost/app-images" "^1.5.0"
     "@polymer/polymer" "^3.4.1"
 
 "@longlost/utils@^1.3.5":
@@ -113,6 +98,13 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@longlost/utils/-/utils-1.4.0.tgz#76b6747ba70b78b9c250daeb359650ecd881f856"
   integrity sha512-1n5tSWBh7QaTeX95ipxkaIqsy2u458FkpapXGN7bpj5kdxtYCYBUgnpBqJuGAbSlRdOPeJiSxNjjuMg5W3bedA==
+  dependencies:
+    "@longlost/lambda" "^2.2.0"
+
+"@longlost/utils@^1.4.1", "@longlost/utils@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@longlost/utils/-/utils-1.5.1.tgz#01bb49e6a2d12dd56f941f51d2cb67a3e5e2691f"
+  integrity sha512-4VE0pQ04oNlKK1k1bYqWTMm4KMpUeiHRUcWGvwEdEOY7zlK7BnPacpULNYFdW21M22gAG4sNWCRNvpNPuHaoQw==
   dependencies:
     "@longlost/lambda" "^2.2.0"
 
@@ -288,17 +280,10 @@
     "@polymer/iron-flex-layout" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/polymer@^3.0.0", "@polymer/polymer@^3.3.1":
+"@polymer/polymer@^3.0.0":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.3.1.tgz#9ad48992d2a96775f80b0673f3a615d6df8a3dfc"
   integrity sha512-8KaB48tzyMjdsHdxo5KvCAaqmTe7rYDzQAoj/pyEfq9Fp4YfUaS+/xqwYj0GbiDAUNzwkmEQ7dw9cgnRNdKO8A==
-  dependencies:
-    "@webcomponents/shadycss" "^1.9.1"
-
-"@polymer/polymer@^3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.4.0.tgz#2f6c85456214bfff987cf65883e6a7860d5ce2ff"
-  integrity sha512-f9fQ1RiEBmkFzuT6cCsfA0YGtdyKrvjF7f3HbvSY1uo2x7ON9Acc//dBLOROUrvXbw1ANT+LY/UeHw0+/KtGog==
   dependencies:
     "@webcomponents/shadycss" "^1.9.1"
 
