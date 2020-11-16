@@ -14,7 +14,7 @@ import {AppElement, html} from '@longlost/app-element/app-element.js';
 import htmlString         from './fancy-header-example.html';
 import '@longlost/app-shared-styles/app-shared-styles.js';
 import '@longlost/app-overlays/app-header-overlay.js';
-import '@longlost/lazy-carousel/lazy-carousel.js';
+import '@longlost/app-carousels/lazy-carousel.js';
 import '@polymer/paper-icon-button/paper-icon-button.js';
 import '@polymer/paper-fab/paper-fab.js';
 
