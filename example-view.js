@@ -10,9 +10,9 @@
   *
   **/
   
-import {AppElement, html} from '@longlost/app-element/app-element.js';
+import {AppElement, html} from '@longlost/app-core/app-element.js';
 import htmlString         from './example-view.html';
-import '@longlost/app-shared-styles/app-shared-styles.js';
+import '@longlost/app-core/app-shared-styles.js';
 
 
 class ExampleView extends AppElement {
